@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <div class="container">
+        <h1>Rock, Paper, Scissors</h1>
+        <div class="buttons">
+
+            <button class="btn" id="rock">
+                <img src='./img/rock.png' alt="rock" />
+            </button>
+            <button class="btn" id="paper">
+                <img src='./img/paper.png' alt="paper" />
+            </button> 
+            <button class="btn" id="scissors">
+                <img src='./img/scissors.png' alt="scissors" />
+            </button> 
+        </div>
+        <section class="output">
+            <h2 id="output-text">
+                Ready to play? Get 3 points to win. <br /> Click any of the buttons above and let's start!
+            </h2>
+            <p id="btn-play-again" onclick="playAgain()">
+                        Play Again
+            </p>
+        </section>
+        <section class="score-box">
+            <div class="badge" id="user-label">user</div>
+            <div class="badge" id="computer-label">computer</div>
+            <div class="score"><span id="user-score">0</span>:<span id="computer-score">0</span></div>
+        </section>
+    </div>
+	<script src="main.js"></script>
+  </body>
+</html>
+

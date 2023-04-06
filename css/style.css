@@ -1,0 +1,216 @@
+body {
+  background-color: #092641;
+  height: 100%;
+  width: 100%;
+  color: #092641;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+body .container {
+  background-color: #e7d1bc;
+  width: 70%;
+  min-width: 50px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  border-radius: 40px;
+  -webkit-box-shadow: 10px 10px 40px black;
+  box-shadow: 0px 0px 30px #ffffff;
+}
+body .container h1 {
+  text-align: center;
+  margin-top: 70px;
+  position: absolute;
+  top: 3%;
+}
+body .container .buttons {
+  margin: 0 auto;
+  width: 60%;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  top: 30%;
+}
+body .container .buttons .btn {
+  width: 150px;
+  height: 150px;
+  background-color: #092641;
+  border: #ffffff;
+  border-color: #092641;
+  border-radius: 50%;
+  border-style: solid;
+  border: 8px solid white;
+  cursor: pointer;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container .buttons .btn-green-border {
+  border: 8px solid green;
+  box-shadow: 0 0 10px black;
+}
+body .container .buttons .btn-red-border {
+  border: 8px solid red;
+  box-shadow: 0 0 10px black;
+}
+body .container .buttons .btn-grey-border {
+  border: 8px solid grey;
+  box-shadow: 0 0 10px black;
+}
+body .container .buttons #rock {
+  margin-right: 15px;
+}
+body .container .buttons #rock:hover {
+  top: 35%;
+}
+body .container .buttons #scissors {
+  margin-left: 15px;
+}
+body .container .buttons img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  justify-content: center;
+  margin: 20px 20px;
+}
+body .container .output {
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 56%;
+}
+body .container .output #output-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.7;
+}
+body .container .output #btn-play-again {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 100%;
+  color: blue;
+  cursor: pointer;
+  display: none;
+  color: #092641;
+  text-decoration: underline;
+  font-size: 22px;
+  font-weight: bold;
+}
+body .container .score-box {
+  position: relative;
+  justify-content: center;
+  flex-direction: row;
+  top: 80%;
+  width: 180px;
+  height: 90px;
+  border-style: solid;
+  border-width: 3px;
+  align-items: center;
+  border-radius: 10px;
+}
+body .container .score-box .badge {
+  font-size: 20px;
+  padding: 2px 10px;
+}
+body .container .score-box #user-label {
+  background-color: #e7d1bc;
+  position: absolute;
+  top: 30px;
+  left: -30px;
+}
+body .container .score-box #computer-label {
+  background-color: #e7d1bc;
+  position: absolute;
+  top: 30px;
+  right: -57px;
+}
+body .container .score-box .score {
+  position: absolute;
+  font-size: 40px;
+  padding-top: 18px;
+  right: 33%;
+  display: flex;
+}
+body .container .score-box .score #user-score {
+  padding-right: 5px;
+}
+body .container .score-box .score #computer-score {
+  padding-left: 5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  body .container {
+    width: 90%;
+    min-width: 50%;
+    height: 550px;
+  }
+  body .container h1 {
+    margin-top: 40px;
+  }
+  body .container .buttons {
+    width: 50%;
+    height: 200px;
+  }
+  body .container .buttons .btn {
+    width: 130px;
+    height: 130px;
+  }
+  body .container .buttons img {
+    width: 80px;
+    height: 80px;
+  }
+  body .container .output #output-text {
+    font-size: 20px;
+  }
+  body .container .output #btn-play-again {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  body .container {
+    width: 90%;
+    min-width: 50%;
+    height: 550px;
+  }
+  body .container h1 {
+    margin-top: 40px;
+  }
+  body .container .buttons {
+    width: 50%;
+    height: 200px;
+    top: 26%;
+  }
+  body .container .buttons .btn {
+    width: 120px;
+    height: 120px;
+  }
+  body .container .buttons img {
+    width: 70px;
+    height: 70px;
+  }
+  body .container .output #output-text {
+    font-size: 18px;
+  }
+  body .container .output #btn-play-again {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
