@@ -119,15 +119,15 @@ const game = userChoice => {
 
     setTimeout(function() {
         document.getElementById(userChoice).classList.remove("btn-green-border");
-    }, 300)
+    }, 1000)
 
     setTimeout(function() {
         document.getElementById(userChoice).classList.remove("btn-red-border");
-    }, 300)
+    }, 1000)
 
     setTimeout(function() {
         document.getElementById(userChoice).classList.remove("btn-grey-border");
-    }, 300)
+    }, 1000)
 
 }
 
