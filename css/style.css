@@ -20,9 +20,8 @@ body .container {
 }
 body .container h1 {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 60px;
   position: absolute;
-  top: 3%;
 }
 body .container .buttons {
   margin: 0 auto;
@@ -137,7 +136,7 @@ body .container .score-box .score {
   position: absolute;
   font-size: 40px;
   padding-top: 18px;
-  right: 33%;
+  right: 31%;
   display: flex;
 }
 body .container .score-box .score #user-score {
