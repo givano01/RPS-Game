@@ -17,7 +17,6 @@ body .container {
   position: relative;
   justify-content: center;
   border-radius: 40px;
-
 }
 body .container h1 {
   text-align: center;
@@ -90,6 +89,8 @@ body .container .output #output-text {
   font-weight: 500;
   font-size: 22px;
   line-height: 1.7;
+  text-align: center;
+  margin: 20px auto;
 }
 body .container .output #btn-play-again {
   display: flex;
@@ -130,7 +131,7 @@ body .container .score-box #computer-label {
   background-color: #e7d1bc;
   position: absolute;
   top: 30px;
-  right: -57px;
+  right: -40px;
 }
 body .container .score-box .score {
   position: absolute;
@@ -184,7 +185,7 @@ body .container .score-box .score #computer-score {
     width: 100%;
   }
   body .container {
-    width: 90%;
+    width: 100%;
     min-width: 50%;
     height: 550px;
   }
@@ -197,15 +198,15 @@ body .container .score-box .score #computer-score {
     top: 26%;
   }
   body .container .buttons .btn {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
   }
   body .container .buttons img {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
   }
   body .container .output #output-text {
-    font-size: 18px;
+    font-size: 16px;
   }
   body .container .output #btn-play-again {
     font-size: 18px;

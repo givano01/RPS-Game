@@ -109,6 +109,8 @@ body{
                 font-weight: 500;
                 font-size: 22px;
                 line-height: 1.7;
+                text-align: center;
+                margin: 20px auto;
             }
             
             #btn-play-again{
@@ -155,7 +157,7 @@ body{
                 background-color:#e7d1bc;
                 position: absolute;
                 top: 30px;
-                right: -57px;
+                right: -40px;
             }
     
             .score{
@@ -234,7 +236,7 @@ body{
         width: 100%;
 
         .container{
-            width: 90%;
+            width: 100%;
             min-width: 50%;
             height: 550px;
 
@@ -249,21 +251,22 @@ body{
                 top: 26%;
                
                 .btn{
-                    width: 120px;
-                    height: 120px;
+                    width: 100px;
+                    height: 100px;
                     
                 }
                 
                 img{
-                    width: 70px;
-                    height: 70px;
+                    width: 50px;
+                    height: 50px;
                 }
             }
             .output{
                 
                 #output-text{
                     
-                    font-size: 18px;
+                    font-size: 16px;
+                    
                    
                 }
                 #btn-play-again{
