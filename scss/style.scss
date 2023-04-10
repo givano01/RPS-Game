@@ -97,11 +97,10 @@ body{
         .output{
             margin: 0 auto;
             height: 50px;
-            
             display: flex;
             position: absolute;
             justify-content: center;
-            top: 56%;
+            top: 60%;
             
             
             
@@ -263,11 +262,16 @@ body{
                 }
             }
             .output{
+
+                padding-left: 15px;
+                padding-right: 15px;
                 
                 #output-text{
                     
                     font-size: 16px;
-                    margin: 0 auto;   
+                    margin: 0 auto;
+                    font-size: 18px;
+                    font-weight: 700;
                     
                    
                 }

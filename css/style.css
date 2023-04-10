@@ -82,7 +82,7 @@ body .container .output {
   display: flex;
   position: absolute;
   justify-content: center;
-  top: 56%;
+  top: 60%;
 }
 body .container .output #output-text {
   font-weight: 500;
@@ -205,9 +205,15 @@ body .container .score-box .score #computer-score {
     width: 50px;
     height: 50px;
   }
+  body .container .output {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   body .container .output #output-text {
     font-size: 16px;
     margin: 0 auto;
+    font-size: 18px;
+    font-weight: 700;
   }
   body .container .output #btn-play-again {
     font-size: 18px;
